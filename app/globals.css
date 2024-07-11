@@ -31,3 +31,16 @@ body {
     text-wrap: balance;
   }
 }
+
+@font-face {
+  font-family: 'Calsans';
+  src: url('/fonts/calsans/calsans-regular.woff2') format('woff2'),
+       url('/fonts/calsans/calsans-regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.font-calsans {
+  font-family: 'Calsans', sans-serif;
+}
+
